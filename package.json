@@ -3,7 +3,8 @@
     "brixi": "brixi",
     "build": "twist --src=./src --outDir=./public/js",
     "preview": "serve ./public",
-    "test": "npm run build && npm run preview"
+    "test": "npm run build && npm run preview",
+    "deploy": "node ./deploy.js"
   },
   "devDependencies": {
     "@codewithkyle/twist": "^1.3.1",
