@@ -11,7 +11,7 @@ jobs:
             - name: Setup Node and NPM
               uses: actions/setup-node@v1
               with:
-                  node-version: 14.2.0
+                  node-version: 14.17.1
 
             - name: Install NPM Packages
               run: npm install
